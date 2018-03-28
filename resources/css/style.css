@@ -1,0 +1,64 @@
+header {
+  height: 64px;
+  background-color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+}
+
+.head-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+
+.head-nav span {
+  margin-left: 16px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.banner-img {
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 12px;
+}
+
+.sec1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-header {
+
+}
+
+.banner-paragraph {
+
+}
+
+.banner-btn {
+
+}
+
