@@ -22,6 +22,10 @@ header {
   margin-right: 24px;
 }
 
+.head-nav-mobile {
+  display: none;
+}
+
 .head-nav span {
   margin-left: 16px;
 }
@@ -158,19 +162,45 @@ header {
   background-color: #D8D8D8;
 }
 
+.sec4 h2{ 
+  text-align: center;
+  padding-top: 32px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .section4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 32px 72px;
 }
 
 .sec4-item {
-  width: 30%;
+  width: 32%;
+  margin-bottom: 32px;
+  background-color: white;
+  padding-bottom: 24px;
 }
 
 .sec4-item img {
   width: 100%;
+}
+
+.sec4-item-headers {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.sec4-item-paragraph {
+  margin-top: 8px;
+  margin-left: 16px;
+  font-weight: light;
+  font-weight: lighter;
+  color: darkgray;
+  line-height: 1.5;
 }
 
 .section3 {
@@ -275,6 +305,118 @@ footer {
 .terms {
   margin-right: 5px;
 }
+
+@media only screen and (max-width: 480px) {
+
+  .head, 
+  .logo,
+  .head-nav {
+    display: none;
+  }
+
+  .head-nav-mobile {
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .banner img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .sec1-text {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .sec2-part1 {
+    display: none;  
+  }
+
+  .sec2-part2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sec2-part2-item {
+    border-bottom: none;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .sec2-part2-item img {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .sec2-part2-text {
+    margin-left: 32px;
+  }
+
+  .old-man-pic {
+    background-color: white;
+    }
+
+  .sec4 {
+    background-color: white;
+    border-top: 1px solid gray;
+    
+  }
+
+  .section4 {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .sec4-item {
+    width: 100%;
+    background-color: #D8D8D8;
+    margin-bottom: 8px;
+  }
+
+  .sec4-item img,
+  .sec4-item p {
+    display: none;
+  }
+
+  .sec3-part1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sec3-part1 h3,
+  .sec3-part1 p {
+    display: none;
+  }
+
+  .sec3-part2 {
+    display: none;
+  }
+
+  .footer {
+    margin-bottom: 16px;
+  }
+
+  .footer-nav {
+    display: none;  
+  }
+}
+
 
 
 
