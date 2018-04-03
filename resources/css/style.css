@@ -1,3 +1,87 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwOIpWqhPANqczVsq4A.woff2) format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwOIpWqZPANqczVs.woff2) format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqhPANqczVsq4A.woff2) format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqZPANqczVs.woff2) format('woff2');
+ }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyCMIT4ttDfCmxA.woff2) format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwN4rWqhPANqczVsq4A.woff2) format('woff2');
+ }
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwN4rWqZPANqczVs.woff2) format('woff2');
+ }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqhPANqczVsq4A.woff2) format('woff2');
+ }
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPANqczVs.woff2) format('woff2');
+}
+
+body {
+  font-family: raleway;
+}
+
 header {
   background-color: white;
 }
@@ -14,6 +98,16 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 32px;
+  margin-left: 24px;
+  text-transform: uppercase;
+}
+
+.logo p {
+  font-weight: 700;
+}
+
+.academy {
+  font-weight: normal;
 }
 
 .head-nav {
@@ -57,20 +151,23 @@ header {
 .banner-header {
   margin-bottom: 24px;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.3;
+  color: #202020;
 }
 
 .banner-paragraph {
   margin-bottom: 24px;
   font-size: 24px;
-  line-height: 1.3
+  line-height: 1.3;
+  font-weight: 500;
+  color: #202020;
 }
 
 .banner-btn {
   font-size: 24px;
   color: white;
-  background-color: gray;
+  background-color: #202020;
   padding-top: 8px;
   padding-bottom: 8px;
   border: none;
@@ -148,8 +245,9 @@ header {
 .sec2-part2-headers,
 .sec4-part2-headers{
   margin-bottom: 8px;
-  font-weight: heavy;
+  font-weight: 500;
   font-size: 20px;
+  color: #202020;
 }
 
 .sec2-part2-content,
@@ -158,10 +256,11 @@ header {
   font-weight: light;
   font-size: 12px;
   color: gray;
+  line-height: 1.5;
 }
 
 .sec2-part2-link {
-  color: lightblue;
+  color: #66b2ff;
   text-decoration: none;
   font-weight: light; 
   font-size: 12px;
@@ -199,7 +298,7 @@ header {
 .sec3-item-headers {
   margin-top: 16px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   margin-left: 16px;
 }
 
@@ -220,6 +319,7 @@ header {
   margin: 32px auto;
   text-align: center;
   font-size: 30px;
+  font-weight: 700;
 }
 
 .sec4-parts {
@@ -234,8 +334,9 @@ header {
 
 .sec4-part1 h3 {
   margin-top: 24px;
-  font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 20px;
+  color: #202020;
 }
 
 .fisma {
@@ -335,39 +436,39 @@ footer {
     
   }
 
-  .section3 {
+  .section4 {
     margin-top: 16px;
     margin-bottom: 32px;
     margin-left: 16px;
     margin-right: 16px;
   }
 
-  .sec4-item {
+  .sec3-item {
     width: 100%;
     background-color: #D8D8D8;
     margin-bottom: 8px;
   }
 
-  .sec4-item img,
-  .sec4-item p {
+  .sec3-item img,
+  .sec3-item p {
     display: none;
   }
 
-  .section3 {
+  .section4 {
     border-top: solid 1px gray;
   }
 
-  .sec3-part1 {
+  .sec4-part1 {
     width: 100%;
     margin-left: 0;
   }
 
-  .sec3-part1 h3,
-  .sec3-part1 p {
+  .sec4-part1 h3,
+  .sec4-part1 p {
     display: none;
   }
 
-  .sec3-part2 {
+  .sec4-part2 {
     display: none;
   }
 
