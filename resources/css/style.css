@@ -237,7 +237,9 @@ header {background-color: white;
 	font-weight: bold;
 }
  
+.sec2-part1 blockquote,
 .sec2-part1 p,
+.sec4-part1 blockquote,
 .sec4-part1 p {
 	line-height: 1.5;
 	margin-top: 24px;
