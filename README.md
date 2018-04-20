@@ -1,6 +1,7 @@
 # Colmar Academy Project
 
-![webp net-compress-image](https://user-images.githubusercontent.com/23506481/31589921-dce1618c-b1bd-11e7-99fa-9c77383b0dd6.jpg)
+<img width="1440" alt="screen shot 2018-04-20 at 15 09 12" src="https://user-images.githubusercontent.com/23506481/39075900-1bd33942-44ad-11e8-8209-86c479f1c1bd.png">
+
 
 This Project is a landing page for the fictional Colmar Academy. One-page responsive site.
 
